@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px;
+  background: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+  color: #111;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu a {
+  padding: 10px 30px;
+}
+
+.menu a:hover {
+  color: #c00;
+}
+
+#inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  justify-self: center;
+}
+
+#inicio div {
+  padding: 40px;
+}
+
+#inicio h1 {
+  font-size: 60px;
+}
+
+.inicio-conteudo {
+  display: grid;
+  gap: 15px;
+  justify-items: left;
+}
+
+.inicio-conteudo a {
+  background-color: #e21;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.inicio-conteudo a:hover {
+  background-color: #c00;
+}
+
+#nossos-servicos {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0px;
+}
+
+.nossos-servicos-conteudo {
+  max-width: 1000px;
+  justify-self: center;
+}
+
+#nossos-servicos h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.nossos-servicos-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.nossos-servicos-cards div {
+  text-align: center;
+}
+
+.nossos-servicos-cards img {
+  width: 200px;
+  height: 200px;
+}
+
+.nossos-servicos-cards p {
+  margin-top: 10px;
+}
+
+#projetos {
+  justify-self: center;
+  padding: 50px 0px;
+}
+
+#projetos h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.projetos-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1000px;
+}
+
+.projetos-conteudo P {
+  text-align: center;
+}
+
+#contato {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0px;
+}
+
+#contato div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  justify-self: center;
+  gap: 30px;
+  align-items: center;
+}
+
+#contato h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+#contato form {
+  display: grid;
+  gap: 10px;
+}
+
+form input[type="text"],
+textarea {
+  border: solid 1px #c00;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#footer {
+  text-align: center;
+  padding: 10px;
+}
